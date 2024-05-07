@@ -32,18 +32,19 @@ function setupHornSelection(selector, audio, image) {
 
 function setupVolumeControl(slider, audio, icon) {
   slider.addEventListener('input', function() {
-    const volume = parseInt(slider.value);
-    audio.volume = volume / 100;
-    if (volume === 0) {
-        icon.src = 'assets/icons/volume-level-0.svg';
-    } else if (volume < 33) {
-        icon.src = 'assets/icons/volume-level-1.svg';
-    } else if (volume < 67) {
-        icon.src = 'assets/icons/volume-level-2.svg';
-    } else {
-        icon.src = 'assets/icons/volume-level-3.svg';
-    }
-});
+      const volume = slider.value;
+      audio.volume = volume / 100;
+      
+      if (volume == 0) {
+          icon.src = 'assets/icons/volume-level-0.svg';
+      } else if (volume < 33) {
+          icon.src = 'assets/icons/volume-level-1.svg';
+      } else if (volume < 67) {
+          icon.src = 'assets/icons/volume-level-2.svg';
+      } else {
+          icon.src = 'assets/icons/volume-level-3.svg';
+      }
+  });
 }
 
 function setupPlaySound(button, audio) {
