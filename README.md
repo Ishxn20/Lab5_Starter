@@ -10,6 +10,7 @@ User Interface, Network, Database. Since the feature requires integration of the
 
 A unit test would be suitable for testing the "max message length" feature of a messaging application. This feature is a specific function  that checks the length of the message against a defined maximum. The logic is straightforward, making it easy to write unit tests that input various strings to the function and verify whether it correctly accepts messages under 80 characters and properly handles or rejects longer messages.
 
-https://ishxn20.github.io/Lab5_Starter/expose.html 
-   
-https://ishxn20.github.io/Lab5_Starter/explore.html
+(Expose)[https://ishxn20.github.io/Lab5_Starter/expose.html]
+
+(Explore)[[https://ishxn20.github.io/Lab5_Starter/expose.html](https://ishxn20.github.io/Lab5_Starter/explore.html
+)]
