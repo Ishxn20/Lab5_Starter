@@ -12,5 +12,4 @@ A unit test would be suitable for testing the "max message length" feature of a 
 
 [Expose](https://ishxn20.github.io/Lab5_Starter/expose.html)
 
-[Explore]([https://ishxn20.github.io/Lab5_Starter/expose.html](https://ishxn20.github.io/Lab5_Starter/explore.html
-)
+[Explore]([https://ishxn20.github.io/Lab5_Starter/expose.html](https://ishxn20.github.io/Lab5_Starter/explore.html)
